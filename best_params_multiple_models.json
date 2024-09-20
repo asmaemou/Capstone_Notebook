@@ -19,5 +19,16 @@
         "penalty": "l2",
         "solver": "liblinear",
         "tol": 0.0001
+    },
+    "Naive Bayes": {
+        "var_smoothing": 1e-08
+    },
+    "Decision Tree": {
+        "splitter": "best",
+        "min_samples_split": 10,
+        "min_samples_leaf": 2,
+        "max_features": null,
+        "max_depth": 20,
+        "criterion": "entropy"
     }
 }
