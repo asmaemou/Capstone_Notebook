@@ -11,7 +11,7 @@
         "max_depth": 5,
         "learning_rate": 0.1,
         "gamma": 0.1,
-        "colsample_bytree": 0.8
+        "colsample_bytree": 1.0
     },
     "Logistic Regression": {
         "C": 1.0,
@@ -21,7 +21,7 @@
         "tol": 0.0001
     },
     "Naive Bayes": {
-        "var_smoothing": 1e-08
+        "var_smoothing": 1e-06
     },
     "Decision Tree": {
         "splitter": "best",
