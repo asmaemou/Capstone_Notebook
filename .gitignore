@@ -1,4 +1,4 @@
 datasets/
 env/
-mlruns/
-mlartifacts/
+binary/mlruns/
+binary/mlartifacts/
