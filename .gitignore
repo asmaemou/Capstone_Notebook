@@ -2,3 +2,5 @@ datasets/
 env/
 binary/mlruns/
 binary/mlartifacts/
+multiclass/mlruns/
+multiclass/mlartifacts/
