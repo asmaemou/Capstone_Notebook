@@ -4,3 +4,5 @@ binary/mlruns/
 binary/mlartifacts/
 multiclass/mlruns/
 multiclass/mlartifacts/
+mlruns/
+multiclass/catboost_info
