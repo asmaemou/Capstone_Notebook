@@ -10,5 +10,28 @@
         "min_samples_split": 2,
         "min_samples_leaf": 2,
         "max_depth": 20
+    },
+    "Logistic Regression": {
+        "C": 1.0, 
+        "max_iter": 1000,
+        "penalty": "l2", 
+        "solver": "liblinear", 
+        "tol": 0.0001
+    },
+    "Decision Tree":{
+        "splitter": "best", 
+        "min_samples_split": 5, 
+        "min_samples_leaf": 4, 
+        "max_features": "None", 
+        "max_depth": 30, 
+        "criterion": "entropy"
+    },
+    "CatBoost": 
+    {
+        "border_count": 128, 
+        "depth": 10, 
+        "iterations": 1000, 
+        "l2_leaf_reg": 1, 
+        "learning_rate": 0.1
     }
 }

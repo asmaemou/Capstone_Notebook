@@ -2,8 +2,8 @@
     "Random Forest": {
         "n_estimators": 50,
         "max_leaf_nodes": 12,
-        "max_features": "sqrt",
-        "max_depth": 15
+        "max_features": null,
+        "max_depth": 12
     },
     "XGB": {
         "subsample": 1.0,
@@ -16,5 +16,11 @@
         "min_samples_leaf": 4,
         "max_features": null,
         "max_depth": 50
+    },
+    "Logistic Regression": {
+        "solver": "saga",
+        "penalty": "l1",
+        "max_iter": 3000,
+        "C": 10
     }
 }
