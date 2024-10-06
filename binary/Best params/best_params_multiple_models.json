@@ -10,18 +10,8 @@
         "n_estimators": 100,
         "max_depth": 5,
         "learning_rate": 0.1,
-        "gamma": 0.1,
+        "gamma": 0,
         "colsample_bytree": 1.0
-    },
-    "Logistic Regression": {
-        "C": 1.0,
-        "max_iter": 1000,
-        "penalty": "l2",
-        "solver": "liblinear",
-        "tol": 0.0001
-    },
-    "Naive Bayes": {
-        "var_smoothing": 1e-06
     },
     "Decision Tree": {
         "splitter": "best",
@@ -30,5 +20,18 @@
         "max_features": null,
         "max_depth": 20,
         "criterion": "entropy"
+    },
+    "Logistic Regression": {
+        "C": 1.0,
+        "max_iter": 1000,
+        "penalty": "l2",
+        "solver": "liblinear",
+        "tol": 0.0001
+    },
+    "CatBoost": {
+        "learning_rate": 0.05,
+        "l2_leaf_reg": 1,
+        "iterations": 1000,
+        "depth": 10
     }
 }
