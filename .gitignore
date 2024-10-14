@@ -8,3 +8,4 @@ mlruns/
 multiclass/catboost_info
 testing/flows
 binary/catboost_info
+mlartifacts/
